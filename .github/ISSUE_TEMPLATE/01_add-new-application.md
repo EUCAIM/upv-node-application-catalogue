@@ -24,8 +24,8 @@ This is a tool to do something with a dataset...
 `jobman submit -i my-application -- <INPUT_DIR> <OUTPUT_DIR>`
   
 The application accepts 2 parameters:
- - The input path of a DICOM directory
- - The output directory where harmonized image will be saved.
+ - The input path of a dataset directory.
+ - The output directory where the results will be saved.
  
 Example:  
   ```
