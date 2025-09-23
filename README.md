@@ -18,6 +18,7 @@ The available docker images with applications to launch are listed with the comm
 | [ubuntu-python](batch-applications/ubuntu-python/README.md)                                    | UPV                            | Public      |
 | [ubuntu-python-tensorflow](batch-applications/ubuntu-python-tensorflow/README.md)              | UPV                            | Public      |
 | [ubuntu-python-pytorch](batch-applications/ubuntu-python-pytorch/README.md)                    | UPV                            | Public      |
+| [extract-info-dataset](batch-applications/extract-info-dataset/README.md)                      | UPV                            | Public      |
 
 ### Testing (still not available)
 | Image name (link to description)                                                               | Author                         | Dockerfile  |
