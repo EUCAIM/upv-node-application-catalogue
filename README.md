@@ -13,12 +13,14 @@ There are two types of applications:
 The user can launch batch jobs from any desktop in the platform.
 The available docker images with applications to launch are listed with the command `jobman images` in your desktop.
 
-| Image name (link to description)                                                               | Author                         | Dockerfile  |
-|:-----------------------------------------------------------------------------------------------|:-------------------------------|:------------|
-| [ubuntu-python](batch-applications/ubuntu-python/README.md)                                    | UPV                            | Public      |
-| [ubuntu-python-tensorflow](batch-applications/ubuntu-python-tensorflow/README.md)              | UPV                            | Public      |
-| [ubuntu-python-pytorch](batch-applications/ubuntu-python-pytorch/README.md)                    | UPV                            | Public      |
-| [extract-info-dataset](batch-applications/extract-info-dataset/README.md)                      | UPV                            | Public      |
+| Image name (link to description)                                                                    | Author                         | Dockerfile  |
+|:----------------------------------------------------------------------------------------------------|:-------------------------------|:------------|
+| [ubuntu-python](batch-applications/ubuntu-python/README.md)                                         | UPV                            | Public      |
+| [ubuntu-python-tensorflow](batch-applications/ubuntu-python-tensorflow/README.md)                   | UPV                            | Public      |
+| [ubuntu-python-pytorch](batch-applications/ubuntu-python-pytorch/README.md)                         | UPV                            | Public      |
+| [extract-info-dataset](batch-applications/extract-info-dataset/README.md)                           | UPV                            | Public      |
+| [mri_image_intensity_harmonization](batch-applications/mri_image_intensity_harmonization/README.md) | Quibim                         | Private     |
+| [ct_slice_thickness_harmonization](batch-applications/ct_slice_thickness_harmonization/README.md)   | Quibim                         | Private     |
 
 ### Testing (still not available)
 | Image name (link to description)                                                               | Author                         | Dockerfile  |
