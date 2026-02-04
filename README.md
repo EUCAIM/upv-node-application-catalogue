@@ -35,6 +35,16 @@ The available docker images with applications to launch are listed with the comm
 | [t2w-prostate-segmentation-tool](batch-applications/t2w-prostate-segmentation-tool/README.md)                | Quibim                     | Private     |
 | [mammography-density-segmenter](batch-applications/mammography-density-segmenter/README.md)                  | ITI                        | Private     |
 
+#### Notes about visibility
+There are three levels of visibility for the batch applications:
+ - Public <== The container image is public, accessible for pulling to everybody even outside of the cluster.
+ - Private <== Only accessible for pulling the image within the cluster.
+ - Protected <== Only accessible for __using__ within the cluster but not pulling the image, i.e. launching a job with it, but not pulling to see the contents**. 
+
+** Jobs can be submitted with jobman and then only a special account in the system is allowed to pull the image for the job to be launched. 
+   Moreover the user is not allowed to overwrite the entrypoint, preventing that way changing the execution code established by the developer 
+   and puting instead a code to print the contents of the image to the output log.
+
 
 ## Interactive applications
 These applications appear in the catalog of applications to deploy.

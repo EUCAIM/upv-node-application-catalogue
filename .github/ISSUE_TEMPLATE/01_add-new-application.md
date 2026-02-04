@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!-- Please replace the example content for each section and remove the comments like this. -->
+<!-- Please replace the example content for each section and remove the comments like this one. -->
 
 # my-application  <!-- replace here with your application image name, please use only lowercase letters, numbers and hyphens -->
 
@@ -62,3 +62,7 @@ https://github.com/EUCAIM/upv-node-workstation-images/blob/87a57cff6b79d8c85dc65
 
 <!-- If it is a file in private repository, it will be copied (only that file) to the Application Catalogue to make it accesible to the users. -->
 
+## Visibility of application
+Public
+<!-- Choose from: Public, Private or Protected.
+     More details here: https://github.com/chaimeleon-eu/application-catalogue#notes-about-visibility -->

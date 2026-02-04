@@ -26,10 +26,13 @@ No changes
 - Contact info:
 No changes
 
+- URL:
+No changes
+
 - License:
 No changes
 
-- URL:
+- Visibility of application
 No changes
 
 
