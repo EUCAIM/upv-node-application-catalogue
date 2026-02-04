@@ -13,22 +13,27 @@ There are two types of applications:
 The user can launch batch jobs from any desktop in the platform.
 The available docker images with applications to launch are listed with the command `jobman images` in your desktop.
 
-| Image name (link to description)                                                                    | Author                         | Dockerfile  |
-|:----------------------------------------------------------------------------------------------------|:-------------------------------|:------------|
-| [ubuntu-python](batch-applications/ubuntu-python/README.md)                                         | UPV                            | Public      |
-| [ubuntu-python-tensorflow](batch-applications/ubuntu-python-tensorflow/README.md)                   | UPV                            | Public      |
-| [ubuntu-python-pytorch](batch-applications/ubuntu-python-pytorch/README.md)                         | UPV                            | Public      |
-| [extract-info-dataset](batch-applications/extract-info-dataset/README.md)                           | UPV                            | Public      |
-| [mri_image_intensity_harmonization](batch-applications/mri_image_intensity_harmonization/README.md) | Quibim                         | Private     |
-| [ct_slice_thickness_harmonization](batch-applications/ct_slice_thickness_harmonization/README.md)   | Quibim                         | Private     |
+| Image name (link to description)                                                                    | Author                 | Dockerfile  |
+|:----------------------------------------------------------------------------------------------------|:-----------------------|:------------|
+| [ubuntu-python](batch-applications/ubuntu-python/README.md)                                         | UPV                    | Public      |
+| [ubuntu-python-tensorflow](batch-applications/ubuntu-python-tensorflow/README.md)                   | UPV                    | Public      |
+| [ubuntu-python-pytorch](batch-applications/ubuntu-python-pytorch/README.md)                         | UPV                    | Public      |
+| [extract-info-dataset](batch-applications/extract-info-dataset/README.md)                           | UPV                    | Public      |
+| [mri_image_intensity_harmonization](batch-applications/mri_image_intensity_harmonization/README.md) | Quibim                 | Private     |
+| [ct_slice_thickness_harmonization](batch-applications/ct_slice_thickness_harmonization/README.md)   | Quibim                 | Private     |
+| [n4filter](batch-applications/n4filter/README.md)                                                   | FORTH                  | Public      |
+| [bio_intensity_norm](batch-applications/bio_intensity_norm/README.md)                               | FORTH                  | Public      |
 
-### Testing (still not available)
-| Image name (link to description)                                                               | Author                         | Dockerfile  |
-|:-----------------------------------------------------------------------------------------------|:-------------------------------|:------------|
-| [dicom-file-integrity-checker](batch-applications/dicom-file-integrity-checker/README.md)      | IIS La Fe                      | Private     |
-| [trace4harmonization](batch-applications/trace4harmonization/README.md)                        | DeepTrace Technologies         | Public      |
-| [t2w-prostate-segmentation-tool](batch-applications/t2w-prostate-segmentation-tool/README.md)  | Quibim                         | Private     |
-| [mammography-density-segmenter](batch-applications/mammography-density-segmenter/README.md)    | ITI                            | Private     |
+#### Testing (still not available)
+| Image name (link to description)                                                                             | Author                     | Dockerfile  |
+|:-------------------------------------------------------------------------------------------------------------|:---------------------------|:------------|
+| [nlmced](https://github.com/EUCAIM/upv-node-application-catalogue/issues/1)                                  | Feriel Romdhane            | Private     |
+| [raclahe](https://github.com/EUCAIM/upv-node-application-catalogue/issues/3)                                 | FORTH                      | Public      |
+| [denoising_inhomogeneity_correction_tool](https://github.com/EUCAIM/upv-node-application-catalogue/issues/4) | GIBI230 - HULAFE           | Public      |
+| [dicom-file-integrity-checker](batch-applications/dicom-file-integrity-checker/README.md)                    | IIS La Fe                  | Private     |
+| [trace4harmonization](batch-applications/trace4harmonization/README.md)                                      | DeepTrace Technologies     | Public      |
+| [t2w-prostate-segmentation-tool](batch-applications/t2w-prostate-segmentation-tool/README.md)                | Quibim                     | Private     |
+| [mammography-density-segmenter](batch-applications/mammography-density-segmenter/README.md)                  | ITI                        | Private     |
 
 
 ## Interactive applications
